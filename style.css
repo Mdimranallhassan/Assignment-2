@@ -1,0 +1,176 @@
+ *{
+    margin-top: 5px;
+    padding: 0px;
+    font-family: 'Albert Sans', sans-serif;
+ }
+ 
+ 
+ 
+ .container {
+    background-color: black;
+    display: grid;
+ }
+ .top-banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+
+ .top-banner .box-1 {
+     color: aliceblue;
+     display: inline;
+     justify-content: space-between;
+ }
+ .top-banner .box-1 p{
+    padding-left: 10px;
+ }
+ .top-banner .box-1 button{
+    color: white;
+    text-align: center;
+ }
+ .box-2 img {
+     position: relative;
+     margin-left: 250px;
+     font-size: x-large;
+     font-size: 400px;
+ }
+
+ h1{
+     margin: 10px;
+     padding: 11px;
+     font-size: 60px;
+     padding-left: 10px;
+ }
+
+ p{
+     margin: 10px
+    
+
+ }
+
+ button {
+     margin: 10px 4em;
+     border: 1px solid red;
+     width: 9em;
+     height: 3em;
+     background-color: rgba(65, 224, 245, 0.527);
+     border-radius: 7px;
+     font-size: larger;
+     
+ }
+ button a{
+    color: aliceblue;
+ }
+ .container-2{
+    display: flex;
+
+ }
+ .blogs-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+ 
+ .box {
+     width: 200px;
+     height: 200px;
+     display: grid;
+     background-color: rgb(44, 37, 37);
+     border-radius: 5%;
+     padding-left: 4px;
+ }
+
+ .box #blog{
+    background-color: rgb(224, 46, 22);
+    font-size: x-large;
+ }
+ .box #color{
+    background-color:rgb(241, 234, 234);
+    font-size: large;
+    text-decoration: none;
+    
+ }
+ .box #color a{
+    color: rgb(26, 24, 24);
+ }
+
+ button {
+     width: 150px;
+     height: 50px;
+     text-align: center;
+     margin: 10px;
+     padding: 5px;
+     margin-left: 11px;
+     color: aliceblue;
+ }
+.blog-list-item button{
+    color: rgb(2, 6, 8);
+    background-color: azure;
+    border: 1px solid black;
+}
+
+ .duration {
+     display: flex;
+ }
+
+ .blogs {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+ 
+  .footer-header {
+      background-color: rgb(65, 51, 51);
+      margin: 0;
+      padding: 0;
+      
+
+
+  }
+
+  .footer-hear h1 {
+      color: aliceblue;
+      text-align: center;
+      padding: 1em;
+
+
+  }
+
+  hr {
+      border: 1px solid white;
+      margin: 5px;
+      text-decoration: none;
+
+  }
+
+  .footer-information{
+
+      color: whitesmoke;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .footer-information a {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      margin: 4px;
+      padding: 8px;
+      color: aliceblue;
+
+  }
+
+  .icons {
+      margin-left: 520px;
+      padding: 10px 10px;
+      padding-bottom: 30px;
+  }
+  .icons .fac{
+    font-size: 2em;
+  }
+  .icons .vi{
+    font-size: 2em;
+  }
+  .icons .ins{
+    font-size: 2em;
+  }
+  .icons .tw{
+    font-size: 2em;
+  }
