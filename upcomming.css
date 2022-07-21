@@ -7,13 +7,13 @@
 
  .upcomming {
      border: 1px solid green;
-     width: 230px;
+     width: 240px;
  }
 
  .match {
      display: flex;
      margin: 5px;
-     padding: 5px;
+     padding-right: 10px;
  }
 
  .time {
