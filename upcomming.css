@@ -1,0 +1,21 @@
+ .match-time {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     row-gap: 5px;
+
+ }
+
+ .upcomming {
+     border: 1px solid green;
+     width: 230px;
+ }
+
+ .match {
+     display: flex;
+     margin: 5px;
+     padding: 5px;
+ }
+
+ .time {
+     text-align: center;
+ }
