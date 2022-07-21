@@ -198,7 +198,7 @@
   }
 
   .icons {
-      margin-left: 520px;
+      margin-left: 570px;
       padding: 10px 10px;
       padding-bottom: 30px;
   }
@@ -214,6 +214,12 @@
   .icons .tw{
     font-size: 2em;
   }
+      .button{
+        margin-left: 200px;
+        color: red;
+
+     }
+
   /* media queries mobile device*/
   @media only screen and (max-width:688px) {
     .container{
@@ -231,13 +237,13 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         text-decoration: none;
-        width: 100%;
+       width: 100%;
         
     }
         .blogs-2 {
             grid-template-columns: repeat(1, 1fr);
             width: 100%;
-            margin-top: 250px;
+            margin-top: 200px;
             margin-left: -28em;
         }
     .footer-information{
@@ -265,12 +271,13 @@
     .box-2 {
         justify-content: center;
     }
+        
   }
   @media only screen and (min-width:768px) and (max-width:992px) {
     .blogs-2{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        margin-top: 280px;
+        margin-top: 240px;
         margin-left: -28em;
         column-gap: 3px;
     }
@@ -279,7 +286,7 @@
         grid-template-columns: repeat(3, 1fr);
         text-decoration: none;
         width: 100%;
-        margin-left: 60px;
+        margin-left: 90px;
     }
     .container-items {
              display: grid;
